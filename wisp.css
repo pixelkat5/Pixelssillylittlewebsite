@@ -1,0 +1,13 @@
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: 96px;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+}
